@@ -1,182 +1,91 @@
-# 🛒 E-Commerce React App (G-Mart)
+🎮 Gaming Gear Shop
 
-A modern **React + Redux Toolkit e-commerce web application** featuring authentication, cart, wishlist, and checkout flow. Built with scalable architecture and real-world best practices.
+## 📸 Screenshots
 
----
+![Home Page](./screenshots/screenshot01.png)
+![Product List](./screenshots/screenshot02.png)
+![Product Details](./screenshots/screenshot03.png)
+![Cart](./screenshots/screenshot04.png)
 
-## 🚀 Live Demo
+A modern e-commerce web application for browsing and purchasing gaming peripherals like mice, keyboards, and headsets. Built with a focus on performance, scalability, and real-world UX patterns.
 
----
+🚀 Live Demo
 
-## 📸 Preview
+👉 https://gaming-gear-shop.geetanshupatil2004.workers.dev/
 
-> Add screenshots here (recommended for portfolio impact)
-
-* Home Page
-* Product Listing
-* Product Details
-* Cart Page
-* Wishlist Page
-* Payment Portal
-
----
-
-## ⚙️ Tech Stack
-
-* ⚛️ React.js (Vite / CRA)
-* 🎯 Redux Toolkit
-* 🌐 React Router DOM
-* 💅 Tailwind CSS
-* 🔔 React Hot Toast
-* 🧠 DummyJSON API
-* 💾 LocalStorage for persistence
-
----
-
-## ✨ Features
-
-### 🛍️ Product System
-
-* Fetch products from external API
-* Product details page
-* Category filtering system
-* Responsive product grid UI
-
-### 🛒 Cart System
-
-* Add / remove products
-* Increase / decrease quantity
-* Persistent cart using localStorage
-* Dynamic cart total calculation
-
-### ❤️ Wishlist System
-
-* Add/remove wishlist items
-* Heart icon toggle (filled/unfilled state)
-* Sync across product listing and wishlist page
-
-### 🔐 Authentication
-
-* Login / Signup functionality
-* Redux-based auth state management
-* Persistent login using localStorage
-* Protected routes support
-
-### 💳 Payment Portal
-
-* Checkout page UI
-* Cash on Delivery enabled
-* Card & UPI shown as disabled (future-ready UI)
-
-### 📦 Order Flow
-
-* Cart → Checkout navigation
-* Order summary section
-* Ready for order success page extension
-
----
-
-## 🧠 State Management (Redux Toolkit)
-
-Slices used:
-
-* `authSlice` → Authentication
-* `cartSlice` → Cart operations
-* `wishlistSlice` → Wishlist logic
-* `productSlice` → Product fetching & filtering
-
-Selectors:
-
-* `selectCartItems`
-* `selectCartTotal`
-* `selectIsAuthenticated`
-
----
-
-## 📁 Project Structure
-
-```
+✨ Features
+🔍 Smart Search
+Debounced search for better performance
+Multi-field search (name, brand, category, features, specs)
+URL-synced filters for shareable search states
+🛍️ Product Browsing
+Clean product grid layout
+Category-based filtering
+Price sorting (Low → High / High → Low)
+Skeleton loaders for smooth UX
+📄 Product Details
+Detailed product descriptions
+Features & specifications section
+Wishlist functionality
+Add to cart support
+❤️ Wishlist & Cart
+Add/remove products from wishlist
+Add products to cart with toast notifications
+🧠 Tech Stack
+Frontend: React + Vite
+State Management: Redux Toolkit
+Routing: React Router
+Styling: Tailwind CSS
+Icons: Lucide React
+Notifications: React Hot Toast
+Deployment: Cloudflare Pages
+⚡ Performance Optimizations
+useMemo for optimized filtering
+Debounced search input
+Cached API calls (Redux thunk logic)
+Lazy rendering with skeleton loaders
+📂 Project Structure
 src/
- ├── app/              # Redux store
- ├── features/
- │    ├── auth/
- │    ├── cart/
- │    ├── products/
- │    ├── wishlist/
- │    ├── payments/
- ├── shared/
- │    └── utils/
- ├── components/
- ├── routes/
- ├── assets/
-```
+├── features/
+│   ├── products/
+│   ├── cart/
+│   ├── wishlist/
+├── shared/
+│   ├── components/
+│   ├── utils/
+├── hooks/
+├── app/
+🔧 Installation & Setup
+# Clone the repo
+git clone https://github.com/your-username/gaming-gear-shop.git
 
----
+# Navigate into project
+cd gaming-gear-shop
 
-## 🔥 Key Highlights
-
-* Clean modular architecture (feature-based structure)
-* Fully responsive UI (mobile-first design)
-* API-driven product system
-* Persistent state with localStorage
-* Professional UI polish with Tailwind CSS
-* Production-ready deployment setup (Vercel)
-
----
-
-## 📦 Installation
-
-```bash
-git clone https://github.com/GeetanshuPatil/Ecomm-react-app.git
-cd Ecomm-react-app
+# Install dependencies
 npm install
+
+# Run development server
 npm run dev
-```
-
----
-
-## 🚀 Build for Production
-
-```bash
+🏗️ Build for Production
 npm run build
-```
+🌐 Deployment
 
----
+This project is deployed using Cloudflare Pages with a global CDN for fast performance.
 
-## 🌐 Deployment
+📈 Future Improvements
+Product reviews & ratings
+Authentication (Login / Signup)
+Backend integration (Node.js / Express)
+Payment gateway (Stripe)
+Product comparison feature
+Search suggestions & autocomplete
+🙌 Acknowledgements
+Inspired by modern e-commerce platforms
+Built as part of a personal portfolio project
+📬 Contact
 
-Deployed using **Vercel**
+If you’d like to connect or collaborate:
 
-* Auto deploy from GitHub
-* SPA routing handled via `vercel.json`
-
----
-
-## 🧩 Future Improvements
-
-* Stripe / Razorpay integration
-* Order success page with animations
-* Backend (Node + MongoDB)
-* User profile dashboard
-* Real-time inventory system
-
----
-
-## 👨‍💻 Author
-
-**Geetanshu Patil**
-GitHub: [https://github.com/GeetanshuPatil](https://github.com/GeetanshuPatil)
-
----
-
-## ⭐ Support
-
-If you like this project:
-
-* ⭐ Star the repo
-* 🍴 Fork it
-* 🚀 Share it
-
----
-
-💡 Built as a **portfolio-ready full-stack frontend e-commerce project**
+GitHub: https://github.com/GeetanshuPatil
+LinkedIn: www.linkedin.com/in/geetanshu-patil-923637375
