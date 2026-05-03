@@ -1,0 +1,232 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Logitech G502 Hero",
+      "category": "mouse",
+      "brand": "Logitech",
+      "price": 5181,
+      "rating": 5,
+      "stock": 34,
+      "image": "https://resource.logitechg.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_2.0/d_transparent.gif/content/dam/gaming/en/non-braid/hyjal-g502-hero/2025/g502-hero-mouse-top-angle-gallery-1.png",
+      "features": ["16000 DPI", "RGB Lighting"],
+      "specs": {
+      "connectivity": "Wired (USB)",
+      "sensor": "HERO 25K",
+      "dpi": "16000 DPI",
+      "buttons": 11,
+      "weight": "121g"
+    },
+      "description": "A high-performance gaming mouse featuring Logitech’s HERO sensor with up to 16,000 DPI for precise tracking. Designed for competitive gamers, it includes customizable weights, RGB lighting, and 11 programmable buttons."
+    },
+    {
+      "id": 2,
+      "name": "Razer DeathAdder V2",
+      "category": "mouse",
+      "brand": "Razer",
+      "price": 5994,
+      "rating": 5,
+      "stock": 20,
+      "image": "https://m.media-amazon.com/images/I/41iLtLRTsZL._AC_UF1000,1000_QL80_.jpg",
+      "features": ["20000 DPI", "Ergonomic"],
+      "specs": {
+      "connectivity": "Wired (USB)",
+      "sensor": "Focus+ Optical",
+      "dpi": "20000 DPI",
+      "buttons": 8,
+      "weight": "82g"
+    },
+      "description": "An iconic ergonomic gaming mouse equipped with a 20,000 DPI optical sensor. Known for its comfortable design and durability, it’s ideal for long gaming sessions and precise control."
+    },
+    {
+      "id": 3,
+      "name": "Logitech G Pro X Superlight",
+      "category": "mouse",
+      "brand": "Logitech",
+      "price": 14641,
+      "rating": 4.6,
+      "stock": 12,
+      "image": "https://m.media-amazon.com/images/I/61ocaaw5KRL._AC_UF1000,1000_QL80_.jpg",
+      "features": ["Wireless", "Ultra-light"],
+      "specs": {
+      "connectivity": "Wireless (Lightspeed)",
+      "sensor": "HERO 25K",
+      "dpi": "25600 DPI",
+      "batteryLife": "Up to 70 hours",
+      "weight": "63g"
+    },
+      "description": "An ultra-lightweight wireless gaming mouse designed for esports professionals. Weighing under 63 grams, it delivers exceptional speed, accuracy, and lag-free performance with Logitech Lightspeed technology."
+    },
+    {
+      "id": 4,
+      "name": "SteelSeries Rival 3",
+      "category": "mouse",
+      "brand": "SteelSeries",
+      "price": 4484,
+      "rating": 4.5,
+      "stock": 50,
+      "image": "https://m.media-amazon.com/images/I/51ROEpjw5YL._AC_UF1000,1000_QL80_.jpg",
+      "features": ["Lightweight", "8500 DPI"],
+      "specs": {
+      "connectivity": "Wired (USB)",
+      "sensor": "TrueMove Core",
+      "dpi": "8500 DPI",
+      "buttons": 6,
+      "weight": "77g"
+    },
+      "description": "A budget-friendly gaming mouse offering accurate tracking with an 8500 DPI sensor. Its lightweight design and durable build make it a great choice for casual and entry-level gamers."
+    },
+    {
+      "id": 5,
+      "name": "Razer BlackWidow V3",
+      "category": "keyboard",
+      "brand": "Razer",
+      "price": 11920,
+      "rating": 4.7,
+      "stock": 18,
+      "image": "https://m.media-amazon.com/images/I/718K1nCtvjL._AC_UF1000,1000_QL80_.jpg",
+      "features": ["Mechanical", "RGB"],
+       "specs": {
+      "layout": "Full Size",
+      "switchType": "Razer Green / Yellow",
+      "lighting": "RGB",
+      "connectivity": "Wired",
+      "wristRest": "Yes"
+    },
+      "description": "A premium mechanical gaming keyboard featuring Razer’s signature switches and customizable RGB lighting. Built for durability and responsiveness, it’s ideal for both gaming and typing."
+    },
+    {
+      "id": 6,
+      "name": "Corsair K95 RGB Platinum",
+      "category": "keyboard",
+      "brand": "Corsair",
+      "price": 16086,
+      "rating": 5,
+      "stock": 10,
+      "image": "https://m.media-amazon.com/images/I/71PzW7vZNUL._AC_UF1000,1000_QL80_.jpg",
+      "features": ["Cherry MX", "Macro Keys"],
+      "specs": {
+      "layout": "Full Size",
+      "switchType": "Cherry MX (Red/Brown)",
+      "lighting": "RGB",
+      "macroKeys": 6,
+      "frame": "Aluminum"
+    },
+      "description": "A high-end mechanical keyboard equipped with Cherry MX switches and dedicated macro keys. It features per-key RGB lighting, an aluminum frame, and advanced customization for power users and gamers."
+    },
+    {
+      "id": 7,
+      "name": "Logitech G Pro Keyboard",
+      "category": "keyboard",
+      "brand": "Logitech",
+      "price": 10905,
+      "rating": 4.7,
+      "stock": 25,
+      "image": "https://m.media-amazon.com/images/I/51K46v9G-tL._AC_UF1000,1000_QL80_.jpg",
+      "features": ["Compact", "GX Switch"],
+      "specs": {
+      "layout": "Tenkeyless",
+      "switchType": "GX Blue/Red/Brown",
+      "lighting": "RGB",
+      "connectivity": "Wired",
+      "cable": "Detachable"
+    },
+      "description": "A compact tenkeyless mechanical keyboard designed for esports. It features GX switches for fast actuation and a portable design perfect for competitive gaming setups."
+    },
+    {
+      "id": 8,
+      "name": "HyperX Cloud II",
+      "category": "headset",
+      "brand": "HyperX",
+      "price": 8807,
+      "rating": 4.3,
+      "stock": 40,
+      "image": "https://m.media-amazon.com/images/I/71ltsViEA8L.jpg",
+      "features": ["7.1 Surround"],
+      "specs": {
+      "connectivity": "Wired (3.5mm/USB)",
+      "surroundSound": "7.1 Virtual",
+      "microphone": "Detachable",
+      "weight": "275g",
+      "compatibility": "PC, PS, Xbox"
+    },
+      "description": "A popular wired gaming headset offering virtual 7.1 surround sound for immersive gameplay. Known for its comfort and clear audio, it’s suitable for long gaming sessions."
+    },
+    {
+      "id": 9,
+      "name": "SteelSeries Arctis 7",
+      "category": "headset",
+      "brand": "SteelSeries",
+      "price": 14591,
+      "rating": 5,
+      "stock": 15,
+      "image": "https://m.media-amazon.com/images/I/81pCpKFjBZL.jpg",
+      "features": ["Wireless"],
+      "specs": {
+      "connectivity": "Wireless (2.4GHz)",
+      "batteryLife": "Up to 24 hours",
+      "microphone": "Retractable",
+      "range": "12m",
+      "compatibility": "PC, PS"
+    },
+      "description": "A premium wireless gaming headset with lossless 2.4GHz connectivity. It delivers excellent sound quality, long battery life, and a comfortable ski-goggle headband design."
+    },
+    {
+      "id": 10,
+      "name": "Razer Kraken X",
+      "category": "headset",
+      "brand": "Razer",
+      "price": 5465,
+      "rating": 4.3,
+      "stock": 33,
+      "image": "https://m.media-amazon.com/images/I/51YC9NwyF7L.jpg",
+      "features": ["Lightweight"],
+      "specs": {
+      "connectivity": "Wired (3.5mm)",
+      "weight": "250g",
+      "microphone": "Cardioid",
+      "surroundSound": "7.1 Virtual",
+      "compatibility": "PC, Console"
+    },
+      "description": "A lightweight and affordable gaming headset designed for comfort and everyday gaming. It offers clear audio and a flexible microphone, making it ideal for casual gamers."
+    },
+    {
+      "id": 11,
+      "name": "Logitech G733 Lightspeed",
+      "category": "headset",
+      "brand": "Logitech",
+      "price": 12995,
+      "rating": 4.6,
+      "stock": 22,
+      "image": "https://m.media-amazon.com/images/I/71xNjrzG69L._AC_UF1000,1000_QL80_.jpg",
+      "features": ["Wireless", "RGB Lighting", "DTS Headphone:X"],
+      "specs": {
+      "connectivity": "Wireless (Lightspeed)",
+      "batteryLife": "Up to 29 hours",
+      "lighting": "RGB",
+      "audio": "DTS Headphone:X 2.0",
+      "weight": "278g"
+    },
+      "description": "A stylish wireless gaming headset featuring Lightspeed technology, RGB lighting, and DTS Headphone:X 2.0 surround sound. Designed for comfort with a lightweight build and customizable suspension headband."
+    },
+    {
+      "id": 12,
+      "name": "Razer Basilisk X HyperSpeed",
+      "category": "mouse",
+      "brand": "Razer",
+      "price": 7999,
+      "rating": 4.5,
+      "stock": 28,
+      "image": "https://m.media-amazon.com/images/I/714EV8-LsXL._AC_UF1000,1000_QL80_.jpg",
+      "features": ["Wireless", "16000 DPI", "Ergonomic Design"],
+      "specs": {
+      "connectivity": "Wireless (Bluetooth + 2.4GHz)",
+      "sensor": "Razer 5G Advanced",
+      "dpi": "16000 DPI",
+      "batteryLife": "Up to 450 hours",
+      "buttons": 6
+    },
+      "description": "A dual-mode wireless gaming mouse with Bluetooth and HyperSpeed connectivity. It offers up to 16,000 DPI, long battery life, and an ergonomic design for comfortable extended use."
+    }
+  ]
+}
