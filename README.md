@@ -1,3 +1,11 @@
+<p align="center">
+  <a href="https://gaming-gear-shop.geetanshupatil2004.workers.dev/">
+    <img src="https://img.shields.io/badge/Live-Demo-green" />
+  </a>
+  <img src="https://img.shields.io/badge/React-18-blue" />
+  <img src="https://img.shields.io/badge/Redux-Toolkit-purple" />
+  <img src="https://img.shields.io/badge/Deployed-Cloudflare-orange" />
+</p>
 🎮 Gaming Gear Shop
 
 ## 📸 Screenshots
@@ -90,5 +98,7 @@ Built as part of a personal portfolio project
 
 If you’d like to connect or collaborate:
 
-GitHub: https://github.com/GeetanshuPatil
+👤 Author
+Geetanshu Patil
+GitHub: https://github.com/GeetanshuPatil  
 LinkedIn: www.linkedin.com/in/geetanshu-patil-923637375
