@@ -44,18 +44,21 @@ useMemo for optimized filtering
 Debounced search input
 Cached API calls (Redux thunk logic)
 Lazy rendering with skeleton loaders
-📂 Project Structure
-src/
-├── features/
-│   ├── products/
-│   ├── cart/
-│   ├── wishlist/
-├── shared/
-│   ├── components/
-│   ├── utils/
-├── hooks/
-├── app/
-🔧 Installation & Setup
+
+## 📂 Project Structure
+
+```src/
+├── app/ # Redux store setup
+├── features/ # Feature-based modules
+│ ├── products/ # Product listing & details
+│ ├── cart/ # Cart functionality
+│ ├── wishlist/ # Wishlist functionality
+├── shared/ # Reusable components & utilities
+│ ├── components/
+│ ├── utils/
+├── hooks/ # Custom React hooks
+```
+
 # Clone the repo
 git clone https://github.com/your-username/gaming-gear-shop.git
 
