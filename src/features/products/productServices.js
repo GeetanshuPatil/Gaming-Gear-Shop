@@ -1,7 +1,7 @@
 // features/products/productServices.js
 
 export const fetchAllProductsAPI = async () => {
-  const res = await fetch("http://localhost:3001/products");
+  const res = await fetch("https://gaming-gear-shop-backend.onrender.com/products");
 
   if (!res.ok) {
     throw new Error("Failed to fetch products");
@@ -12,7 +12,7 @@ export const fetchAllProductsAPI = async () => {
 };
 
 export const fetchProductByIdAPI = async (id) => {
-  const res = await fetch(`http://localhost:3001/products/${id}`);
+  const res = await fetch(`https://gaming-gear-shop-backend.onrender.com/products${id}`);
 
   if (!res.ok) {
     throw new Error("Failed to fetch product");
